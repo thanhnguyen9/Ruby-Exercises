@@ -1,3 +1,7 @@
+# Create a module that makes a quiz, use a hash to store questions
+# and to store answers. Minimum of 10 questions max of 20
+# Must output number of correct answers in percentage or rational number.
+
 questions = [
 	{
 	question: "Who is the coolest person in the world?",
