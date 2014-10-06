@@ -28,10 +28,8 @@ def deaf_grandmar
 
   p "Say hello to grandmar:"
   user = gets.chomp
-  if user = "BYE"
-
-
-  until user.upcase == user
+  
+  until user.upcase == user || user == "BYE BYE BYE"
     p "Say hello to grandmar:"
     user = gets.chomp
   end
